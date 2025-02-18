@@ -1,3 +1,52 @@
+
+*{
+font-family: Arial, Helvetica, sans-serif;
+margin: 0;
+padding: 0;
+
+box-sizing: border-box;
+
+
+}
+
 body{
-    background: green ;
+    background: #f0f0f0 ;
+    background-image: url(../download.jpg);
+  
+}
+
+h1{
+    color: #333;
+}
+p{
+    color: hwb(11 20% 0%);
+    font: size 1.2em; ;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+   
+   justify-content: space-evenly;
+}
+
+
+.bg-test{
+    border: 1px solid #333;
+    height: 100px;
+    width: 100px;
+    margin-bottom: 20px;
+   
+}
+.hex{
+    background-color: #ff5733;
+}
+.rgb{
+    background-color: #333;
+}
+.hsl{
+    background-color: aquamarine;
+}
+.rgba{
+    background-color: rgba(174, 135, 0, 0.5);
 }
